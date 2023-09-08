@@ -1,0 +1,24 @@
+@import './variables.scss';
+
+.search {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    &__title {
+      display: flex;
+      margin-bottom: 22px;
+  
+      color: $color-dark;
+      font-weight: 600;
+      font-size: $fz;
+    }
+    &__field {
+      display: flex;
+      width: 240px;
+      padding: 16px;
+  
+      outline: none;
+      border: 1px solid $color-grey-light;
+      border-radius: 8px;
+    }
+  }

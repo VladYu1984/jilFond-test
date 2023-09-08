@@ -1,0 +1,13 @@
+@import './variables.scss';
+
+.sidebar {
+    min-width: 291px;
+    padding: 28px 30px 28px 20px;
+  
+    background-color: $color-grey-lighter;
+    border-right: 1px solid $color-grey-light;
+  
+    &__search {
+      margin-bottom: 22px;
+    }
+}
